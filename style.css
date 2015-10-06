@@ -1,7 +1,52 @@
+body {
+	background-image: url(img/water.jpg);
+}
+img {
+	width: 500px;
+
+}
 li {
 	margin-bottom: 2em;
 }
 
 h2 {
 	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;	
+	background-color: green;		
+	color: white;
+	padding: 4px;
+}
+
+div#logo {
+	text-align: center;
+}
+
+div.plank {
+	background-image: url(img/cedar1.jpg);
+	border: 6px solid #800000;
+	width: 200px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding: 4px;
+	display: inline-block;
+}
+
+li {
+	background-color: green;
+	border: 2px solid #800000;
+	width: 150px;
+}
+
+h2#slogan {
+	font-family: 'Indie Flower', cursive;
+	background-color: #800000;
+}
+
+
+
+h3 {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;	
 }
