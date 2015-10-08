@@ -21,8 +21,8 @@ div#logo {
 	text-align: center;
 }
 
-table#table {
-	background-image: url(img/cedar1.jpg);
+table#table, th, td {
+background-color: black;
 	border: 6px solid #800000;
 	width: 200px;
 	color: white;
@@ -48,4 +48,10 @@ h3 {
 	color: black;
 	font-family: 'Raleway', sans-serif;
 	background-color: white;	
+}
+
+div#form {
+	background-color: green;
+	height: 80px;
+	padding: 30px;
 }
