@@ -1,0 +1,182 @@
+body {
+	background-image: url("img/water.jpg");
+}
+
+img#fish {
+	width: 500px;
+}
+
+h1#name {
+background-color: #262626;
+color: white;
+text-align: center;
+border: 4px solid #a73b00;
+}
+
+h1#slogan {
+	background-color: #a73b00;
+	color: white;
+	text-align: center;
+	border: 4px solid #262626;
+}
+
+img#cook {
+	border: 4px solid #a73b00 ;
+	float: left;
+
+}
+
+h3#history {
+	text-align: center;
+	font-size: 26px;
+}
+img#break {
+	display: block;
+	margin: 0px auto;
+}
+div#history {
+	background-color: #262626;
+	border: 4px solid #a73b00;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 4px;
+	padding-bottom: 20px;
+}
+
+h3#loca {
+	text-align: center;
+	background-color: #a73b00;
+	color: white;
+	font-size: 22px;
+	border: 4px solid #262626;
+}
+
+ul#loc {
+	list-style: none;
+	
+
+}
+
+li.place {
+	border-radius: 100%;
+	background-color: #262626;
+	width: 230px;
+	height: 230px;
+	color: white;
+	text-align: center;
+	border: 4px solid #a73b00;
+	float: left;
+	padding: 5px;
+}
+
+
+img.locate {
+	width: 190px; 
+	border: 4px solid #262626;
+	border-radius: 30%;
+	margin-bottom: 5px;
+}
+
+div#family {
+	background-color: #a73b00;
+	width: 470px;
+	height: 190px;
+	display: inline-block;
+	padding: 10px;
+	text-align: right;
+	color: white;
+	padding-right: 50px;
+	font-style:  italic;
+	font-size: 18px;
+	margin-left: 80px;
+	margin-top: 15px;
+}
+
+img#fam {
+	width: 320px;
+	border: 4px solid #262626;
+	float: left;
+}
+
+p#famq {
+	background-color: #262626;
+	text-align: center;
+	height: 170px;
+	width: 100px;
+	float: right;
+}
+
+div#merch {
+	background-color: #262626;
+	border: 4px solid #a73b00;
+	height: 400px;
+	width: 600px;
+	color: white;
+	margin-top: 35px;
+	padding: 10px;
+	text-align: center;
+}
+
+p#merchq {
+	background-color: #a73b00;
+	height: 20px;
+	padding: 5px;
+}
+
+img#tee {
+	float: left;
+	border: 4px solid #a73b00;
+}
+
+ul#mlist {
+background-color: #a73b00;
+width: 130px;
+float: right;
+margin-right: 50px;
+text-align: left;
+padding-top: 10px;
+padding-right: 10px;
+list-style: none;
+}
+
+li.mer {
+margin-bottom: 2em;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+div#links {
+	width:530px;
+	background-color: #262626;
+	border: 4px solid #a73b00;
+	color: white;
+	float: right;
+	margin-top: -429px;
+	text-align: center;
+}
+
+h2 {
+	background-color: #a73b00;
+	width: 400px;
+	margin-left: 70px;
+}
+
+ul#sealist {
+	text-align: left;
+	background-color: #a73b00;
+	width: 300px;
+	margin-left: 10px;
+}
+
+a {
+	color: #262626;
+}
+
+a:hover {
+	color: white;
+}
+
+

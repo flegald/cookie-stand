@@ -21,7 +21,7 @@ div#logo {
 	text-align: center;
 }
 
-div.plank {
+table#table {
 	background-image: url(img/cedar1.jpg);
 	border: 6px solid #800000;
 	width: 200px;
@@ -29,7 +29,6 @@ div.plank {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	padding: 4px;
-	display: inline-block;
 }
 
 li {

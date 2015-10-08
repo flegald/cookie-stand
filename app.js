@@ -13,13 +13,12 @@ var Cookiestand = function(place, minCustHour, maxCustHour, avgCookieCust, html)
 		this.total += I;
 		return I;
 	}
-	this.cookArray = ["10am: " + this.totalCooksHour() + " cookies", "11am: " + this.totalCooksHour() + " cookies", "12pm: " + this.totalCooksHour() + " cookies", "1pm: " + this.totalCooksHour() + " cookies", "2pm: " + this.totalCooksHour() + " cookies", "3pm: " + this.totalCooksHour() + " cookies", "4pm: " + this.totalCooksHour() + " cookies", "5pm: " + this.totalCooksHour() + " cookies", "Total: " + this.total];
+	this.cookArray = [this.totalCooksHour(), this.totalCooksHour(), this.totalCooksHour(), this.totalCooksHour(), this.totalCooksHour(), this.totalCooksHour(), this.totalCooksHour(), this.totalCooksHour(), this.total];
 
 	this.makeUL = function(){
 		for (var i = 0; i < this.cookArray.length; i++){
 			var cooklist = document.getElementById(this.html);
-			console.log(cooklist);
-			var item = document.createElement('li');
+			var item = document.createElement('td');
 			item.appendChild(document.createTextNode(this.cookArray[i]));
 			cooklist.appendChild(item);
 		}
