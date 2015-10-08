@@ -1,5 +1,14 @@
+function consoleSee (form) {
+    var formLocate = form.locate.value;
+    var formMin = form.Min.value;
+    var formMax = form.Max.value;
+    var formAvg = form.Avg.value;
+    console.log("Location: " + formLocate + " Min cust/hour: " + formMin + " Max cust/hour: " + formMax + " Avg cust/hour: " + formAvg)
+}	
+
+
 var Cookiestand = function(place, minCustHour, maxCustHour, avgCookieCust, html) {
-	this.place = place;
+	this.place = place || document.getElementById('form1').value;
 	this.minCustHour = minCustHour;
 	this.maxCustHour = maxCustHour;
 	this.avgCookieCust = avgCookieCust;
@@ -39,3 +48,7 @@ var runUL = function(){
 	}
 }
 //!!FOR LOOP IS FOR PRACTICE!!//
+
+
+
+

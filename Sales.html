@@ -41,15 +41,22 @@
 		<tr id="alki">
 			<th>Alkie</th>
 		</tr>
+		<tr></tr>
 	</table>
 </br>
-<div id="form">
-	<input type="text" value="Location"></input>
-	<input type="text" value="Min Customer/Hour"></input>
-	<input type="text" value="Max Customer/Hour"></input>
-	<input type="text" value="Avg Cookies/Customer"></input>
-	<input type="button" value="Submit"></input>
-</div>
+
+	<form name="cookie">
+	</br> Location:
+	<input type="text" name="locate" id="form1"></input>
+	Min Customer/Hour:
+	<input type="text" name="Min"></input>
+	Max Customer/Hour:
+	<input type="text" name="Max"></input>
+	Avg Customer/Hour:
+	<input type="text" name="Avg"></input>
+	<input type="button" value="Submit" onclick="consoleSee(this.form);"></input>
+</form>
+
 <script src="app.js"></script>
 </body>
 </html>
