@@ -21,7 +21,7 @@ div#logo {
 	text-align: center;
 }
 
-table#table, th, td {
+table#table, th, td, tr {
 background-color: black;
 	border: 6px solid #800000;
 	width: 200px;
