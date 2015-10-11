@@ -54,17 +54,20 @@ var southMall = new Cookiestand("Southcenter Mall", 11, 38, 1.8);
 var bSquare = new Cookiestand("Bellevue Square", 20, 48, 3.3);
 var alki = new Cookiestand("Alki", 3, 24, 2.6);
 
-var submit = function() {
-	locNew = document.getElementById('form1');
-	minNew = document.getElementById('form2');
-	maxNew = document.getElementById('form3');
-	avgNew = document.getElementById('form4');
+var newAll = function(){
+	locNew = document.getElementById('form1').value;
+	minNew = parseInt(document.getElementById('form2').value);
+	maxNew = parseInt(document.getElementById('form3').value);
+	avgNew = parseInt(document.getElementById('form4').value);
+ var poop = new Cookiestand(locNew, minNew, maxNew, avgNew);
+	};
 
-	var newAll = new Cookiestand(locNew.value, minNew.value, maxNew.value, avgNew.value);
-};
+	var subButt = document.getElementById("button");
+
+	subButt.addEventListener('click', newAll);
 
 
-var button = document.getElementById('button');
+	
 
-button.addEventListener ('click', submit);
+
 
